@@ -15,9 +15,9 @@ const Navbar = () => {
     const navLinks = [
         { name: 'Inicio', href: '#home' },
         { name: 'Habilidades', href: '#skills' },
-        { name: 'Proyectos', href: '#projects' },
+        //{ name: 'Proyectos', href: '#projects' },
         { name: 'Sobre Mí', href: '#about' },
-        { name: 'Formación', href: '#education' },
+        //{ name: 'Formación', href: '#education' },
     ];
 
     return (
@@ -119,5 +119,6 @@ const Navbar = () => {
         </nav>
     );
 };
+
 
 export default Navbar;
