@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import About from './components/About';
 import Footer from './components/Footer';
+import Education from './components/Education';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -10,13 +12,10 @@ function App() {
       {/* NAVEGADOR /> */}
       <Navbar />
       <div className="pt-20">
-
-        {/* HOME /> */}
         <div id="home">
           <Hero />
         </div>
 
-        {/* SKILLS /> */}
         <div id="skills">
           <Skills />
         </div>
@@ -24,7 +23,15 @@ function App() {
         <div id="about">
           <About />
         </div>
-        {/* <Projects id="projects" /> */}
+
+        <div id="education">
+          <Education />
+        </div>
+
+        <div id="experience">
+          <Experience />
+        </div>
+
         <div id="Footer">
           <Footer />
         </div>

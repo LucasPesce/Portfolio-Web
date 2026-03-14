@@ -17,7 +17,7 @@ const Navbar = () => {
         { name: 'Habilidades', href: '#skills' },
         //{ name: 'Proyectos', href: '#projects' },
         { name: 'Sobre Mí', href: '#about' },
-        //{ name: 'Formación', href: '#education' },
+        { name: 'Formación', href: '#education' },
     ];
 
     return (
@@ -96,7 +96,6 @@ const Navbar = () => {
             </div>
 
             {/* --- MENÚ DESPLEGABLE (MÓVIL) --- */}
-            {/* Usamos max-h (max-height) para lograr un efecto de acordeón suave con CSS puro */}
             <div 
                 className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-primary/95 backdrop-blur-md border-b border-secondary shadow-xl ${
                     isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 border-transparent'
